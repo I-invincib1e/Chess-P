@@ -34,4 +34,4 @@ wheels/
 .DS_Store
 
 # Model (Optional: Uncomment if you don't want to track weight changes)
-# model.json
+model.json
