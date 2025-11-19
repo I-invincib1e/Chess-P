@@ -1,27 +1,25 @@
-# ♟️ Python Chess Bot
+# ♟️ RoastChess: The AI That Judges You
 
-A sophisticated terminal-based chess AI written in Python. It features a custom Minimax engine with Alpha-Beta pruning, a personality system, and an evolutionary training arena.
+A **Trash-Talking, Evolutionary Chess Bot** that learns from its mistakes and roasts you for yours. Built from scratch in Python.
 
-![Chess Bot Terminal Interface](C:/Users/neore/.gemini/antigravity/brain/b926e032-cb3f-4e61-a0ce-fc653d363195/chess_bot_terminal_screenshot_1763584675878.png)
+![RoastChess Dashboard](C:/Users/neore/.gemini/antigravity/brain/b926e032-cb3f-4e61-a0ce-fc653d363195/roast_chess_dashboard_screenshot_1763584675878.png)
 
 ## ✨ Features
 
+- **Pro Dashboard UI**: A hacker-style terminal interface with split panels for board, chat, and history.
+- **Trash-Talking Persona**: The bot roasts you in real-time.
 - **Custom Engine**: Built from scratch using Minimax and Alpha-Beta pruning.
-- **Personality Engine**: Play against different personas (Gentleman, Troll, Coward) that comment on your moves.
-- **Bot Arena**: Simulate matches between different engine versions.
 - **Evolutionary Training**: Train the bot to improve its piece valuation weights over time.
-- **Opening Book**: Integrated opening book for instant early-game moves.
-- **Transposition Table**: Optimized search using Zobrist hashing (simulated).
-- **Visuals**: Beautiful terminal interface with ANSI colors and Unicode pieces.
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 - Python 3.x
 - `python-chess` library
+- `rich` library
 
 ```bash
-pip install python-chess
+pip install python-chess rich
 ```
 
 ### 🎮 How to Play
